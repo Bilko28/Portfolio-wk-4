@@ -65,11 +65,25 @@ display: none;
   width: 100%;
   max-width: 1000px;
   padding-right: 100px;
+  padding-left: 30px;
   margin-left: 10px;
+  text-align: right;
 }
 
 .main-text > p {
   margin: 5px;
+}
+
+.main-text>p>a {
+  /* margin: 5px; */
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.main-text>p>a:hover {
+      font-weight: 500;
+        color: white;
 }
 
 #portfolio {
@@ -133,8 +147,9 @@ footer {
   padding-left: 5px;
   margin: 20px 0px 0px 0px;
   width: 100%;
-  bottom: 0px;
-  background-color: rgb(22, 22, 22);
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+      left: 10px;
 }
 
 

@@ -35,7 +35,7 @@
             "featured": "false"
         },
         {
-            "Title": "Fourth project",
+            "Title": "A different project",
             "img": "https://static.dezeen.com/uploads/2014/05/Apple-store-Istanbul-by-Foster-Partners-sq.jpg",
             "altText": "Example alt text here",
             "client": "Designers",
@@ -46,7 +46,7 @@
             "featured": "true"
         },
         {
-            "Title": "Fifth project",
+            "Title": "One more project",
             "img": "https://i.pinimg.com/564x/80/48/46/804846e658ae2cfc046f63b80a9fa87c.jpg",
             "altText": "Example alt text here",
             "client": "Designers",
@@ -57,8 +57,8 @@
             "featured": "false"
         },
         {
-            "Title": "Sixth project",
-            "img": "https://www.bluenote.com/files/2019/03/FreddieHubbard_1960_ByFrancisWolff.jpg",
+            "Title": "Further project",
+            "img": "https://live.staticflickr.com/147/424536120_22cef99086_b.jpg",
             "altText": "Freddie Hubbard",
             "client": "Designers",
             "longdesc": "Freddie Hubbard, one of the all time great trumpeters",

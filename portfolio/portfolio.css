@@ -82,7 +82,7 @@ h1 {
   gap: 20px;
   padding: 50px 110px 0px 10px;
   max-width: 1000px;
-  max-height: 1500px;
+  max-height: 1800px;
 }
 
 
@@ -138,13 +138,13 @@ h1 {
 }
 
 footer {
-  position: bottom;
   padding: 10px 0px 15px 0px;
   padding-left: 5px;
   margin: 20px 0px 0px 0px;
   width: 100%;
-  bottom: 0px;
   background-color: rgb(22, 22, 22);
+  position: absolute;
+  left: 10px;
 }
 
 

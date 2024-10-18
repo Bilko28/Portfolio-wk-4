@@ -1,12 +1,19 @@
+// toggle flyout menu (mobile only)
 const burgerMenu = document.querySelector('.mobile-burger')
 const flyout = document.querySelector('.mobile-nav')
 
 burgerMenu.addEventListener('click', () => {
-    console.log('clicked! test')
     flyout.classList.toggle('open')
 })
 
-
+// ESC key to toggle flyout menu off
+// flyout.addEventListener
+// function keyCode(event) {
+//     var x = event.keyCode;
+//     if (x == 27) {
+//         alert("You pressed the Escape key!");
+//     }
+// }
 
 
 
@@ -18,20 +25,11 @@ fetch('../json/data.json')
 
         const projects = document.querySelector('#portfolio')
         
-        // const numberOfProjects = 
-        // console.log(numberOfProjects)
-
-        // const homepageProjects = 3
-        // for (let i = 0; i < homepageProjects; i++) {
-        //     (
-        //     );
-        // } 
-        
-    
         data.projects.forEach(pieceOfWork => {
+            if (pieceOfWork.featured == "true") {
 
-            projects.innerHTML += 
-            `
+                projects.innerHTML +=
+                    `
             <div class='portfolio-card'>
                 <img src="${pieceOfWork.img}" alt="${pieceOfWork.altText}" class="portfolio-image">
                 <p class="project-title">${pieceOfWork.Title}</p>
@@ -41,7 +39,7 @@ fetch('../json/data.json')
                     <a href="${pieceOfWork.git}" target="_blank"><i class="fa-brands fa-github"></a></i>
                 </div>
             </div>
-            `
+            `}
         })
     })
 
